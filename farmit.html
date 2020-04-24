@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/farm.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body bgcolor='#004d40'>
+    <section class="div1 fullscr div1">
+        <h1 class="mtr white-text">Farmhura</h1>
+           <br><br>
+           <a class="waves-effect waves-light btn b1" onclick="openForm()">LOG IN</a>
+           <div>
+                <form id="form1" action="index1.html" target="_blank">
+                        <h1>Login</h1>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                    
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                        <button type="submit" class="btn">submit</button>
+                        
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+
+                </form>
+           </div>
+           <br><br><br><br><br>
+           <a class="waves-effect waves-light btn b2" onclick="openForm1()">SIGN UP</a>
+           <div>
+               <form id="form2"><br><br>
+                    <p>
+                            <label>
+                              <span><a href="farmer.html"><h5 class="white-text">farmer</h5></a></span>
+                            </label>
+                          </p><br>
+                          <p>
+                            <label>
+                              <span><a href="dealer.html"><h5 class="white-text">Dealer</h5></a></span>
+                            </label>
+                          </p>
+                    
+                    
+                   
+               </form>
+           </div>
+
+    </section>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>    
+    <script>
+    function openForm() {
+        document.getElementById("form1").style.display = "block";
+    }
+    
+    function closeForm() {
+        document.getElementById("form1").style.display = "none";
+    }
+    </script>
+    <script>
+            function openForm1() {
+                document.getElementById("form2").style.display = "block";
+            }
+            
+            function closeForm1() {
+                document.getElementById("form2").style.display = "none";
+            }
+            </script>
+  </body>
+</html>
+      

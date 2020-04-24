@@ -1,0 +1,135 @@
+body, html{
+    height: 100%;
+}
+
+.fullscr{
+ height: 100%;
+ width: 100%   
+}
+
+.div1{
+    background-image: url("https://i.pinimg.com/originals/b6/38/38/b63838fde6a7fc5b1df6d2834ebf60eb.jpg");
+    background-size: auto 140%;
+    
+}
+
+.mtr{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+nav{
+    position: fixed;
+}
+
+.div3{
+    height: 400px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.t1{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+}
+
+.t2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color: #ffffff;
+}
+
+
+.div4{
+    height: 500px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.div6{
+    height: 1000px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 50%;
+}
+
+.t3{
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.div7{
+    height: 1000px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.div8{
+    margin-top: 20%;
+    margin-left: 1%;
+    width: 30%;
+}
+
+.tea{
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 20%;
+    padding-top: 80%;
+}
+
+.div9{
+margin-top: -20%;
+    margin-left: 55%;
+    width: 40%;
+    height: 300px;
+    
+}
+
+.div11{
+    height: 800px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+.div12{
+    width: 50%;
+    margin-left:30%;
+    margin-right: 30%;
+}
+
+.div14{
+    height: 700px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20%;
+}
+
+.img{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+.img1{
+    padding-bottom: 48%; height: 650px; width: 50%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.imgt{
+    color: #ffffff;
+    font-size: 120%;
+    font-weight: 200;
+    margin-left: 35%;
+}

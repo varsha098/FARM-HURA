@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/farm.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body bgcolor='#00695c'>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div>
+            <h1 style="margin-left:32%;">Farmer Sign Up</h1>
+                <form id="form3">
+                        
+
+                        <label for="name"><b><h4>Name</h4></b></label>
+                        <input type="text" placeholder="Enter Name" name="name" required>
+                    
+                        <label for="city"><b><h4>City</h4></b></label>
+                        <input type="City" placeholder="Enter your City" name="psw" required>
+                        <label for="pinc"><b><h4>Pin Code</h4></b></label>
+                        <input type="text" placeholder="Enter Pin code" name="pincode" required>
+                        <label for="api"><b><h4>API</h4></b></label>
+                        <input type="text" placeholder="Enter API number" name="api" required>
+
+                        <label for="crops"><b><h4>Crops</h4></b></label>
+                            <p>
+                                <label>
+                                  <input type="checkbox" class="Bg"  />
+                                  <span>Black Gram</span>
+                                </label>
+                            </p>
+                            <p>
+                                    <label>
+                                      <input type="checkbox" class="Gn"  />
+                                      <span>Ground nut</span>
+                                    </label>
+                                </p>
+                                <p>
+                                        <label>
+                                          <input type="checkbox" class="Maize"  />
+                                          <span>Maize</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                            <label>
+                                              <input type="checkbox" class="ragi"  />
+                                              <span>Ragi</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                                <label>
+                                                  <input type="checkbox" class="rice"  />
+                                                  <span>Rice</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                    <label>
+                                                      <input type="checkbox" class="wheat"  />
+                                                      <span>Wheat</span>
+                                                    </label>
+                                                </p>
+                                                <p>
+                                                        <label>
+                                                          <input type="checkbox" class="Soyabeans"  />
+                                                          <span>Soya Beans</span>
+                                                        </label>
+                                                    </p>
+                                                    <p>
+                                                            <label>
+                                                              <input type="checkbox" class="Sunflower"  />
+                                                              <span>Sunflower</span>
+                                                            </label>
+                                                        </p>
+                    <br><br>
+                    
+                        <button type="button" class="btn" onclick="parent.location='farmit.html'">submit</button>
+                        <button type="button" class="btn cancel" onclick="closeForm1()">Close</button>
+                        <br><br>
+
+
+                </form>
+                </div>
+                <script>
+                function closeForm1()
+                {
+                    document.getElementById("form2").style.display = "block";
+                }
+                </script>
+        
+    </body>
+    </html>

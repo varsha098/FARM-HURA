@@ -1,0 +1,79 @@
+body, html{
+    height: 100%;
+}
+
+.fullscr{
+     position:absolute; 
+    height: 100%;
+    width: 100%;
+}
+
+.div1{
+   background-image: url('https://i.imgur.com/UkKDCJy.jpg');
+    background-size: auto 200%;
+}
+
+
+.div2{
+    background-image: url('https://www.topconpositioning.com/sites/default/files/styles/illustration_wide/public/industry_illustration_images/agriculture_spectrum.png?itok=Ug4RP0QB');
+    background-size: auto 120%;
+    opacity: 0.8;
+}
+.mtr{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.b1{
+    margin-left: 47%;
+}
+.b2{
+    margin-left: 47%;
+}
+#form1{
+    display:none;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+#form2{
+   display: none;
+    margin-left: 47%;
+    margin-right: 35%;
+}
+
+#form3{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#form5{
+     margin-left: 43%;
+     margin-right: 35%;
+ }
+
+
+.button {
+    
+    background-color: #fafafa;
+    border: none;
+    color: black;
+    padding: 30px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 43%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: #212121;
+    color: white;
+}
+
+
